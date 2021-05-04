@@ -1,0 +1,21 @@
+#div2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.carta {
+  padding: 12px;
+  width: 30%;
+  border: gray 4px solid;
+  border-radius: 6px;
+  margin: 12px;
+  text-align: justify;
+}
+
+.carta img {
+  width: max-content;
+}
+.carta img:hover {
+  transform: rotate(7deg);
+}
